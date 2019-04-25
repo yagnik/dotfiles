@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+
+import subprocess
+import re
+
+class Remote(object):
+  @classmethod
+  def build(klass):
+    remote = subprocess.check_output("git remote".split()).split("\n")[0].strip()
+    url = subprocess.check_output(("git remote get-url --push %s" % remote).split()).split("\n")[0].strip()
+    return klass(url)
+
+  def __init__(self, url):
+    self.url = url
+
+  def http_url(self):
+    if not self.is_ssh_url():
+      return self.url
+    else:
+      without_user = self.url.split("@")[1]
+      without_semi = without_user.split(":")
+      return "/".join(without_semi)
+
+  def is_ssh_url(self):
+    return re.match("^git@", self.url) is not None
+
+subprocess.check_output(("open https://%s" % Remote.build().http_url()).split())

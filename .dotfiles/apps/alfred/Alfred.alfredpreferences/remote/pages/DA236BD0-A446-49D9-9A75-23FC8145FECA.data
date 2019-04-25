@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iconid</key>
+	<string>790BADF8-04C0-428B-B171-2301C69A3EC7</string>
+	<key>iconisuserspecified</key>
+	<true/>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>actionuid</key>
+			<string>remote.alfred.showalfred</string>
+			<key>buttoniconid</key>
+			<string>85263FA1-0168-4762-9AB4-B3F4C2E596BA</string>
+			<key>buttonlabel</key>
+			<string>Show Alfred</string>
+			<key>itemuid</key>
+			<string>161262C3-45A4-4935-8574-18873A55D629</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>command</key>
+				<integer>6</integer>
+				<key>confirm</key>
+				<false/>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.systemcommand</string>
+			<key>buttoniconid</key>
+			<string>FB2CFD3E-6C08-4C75-B1F7-E156EF7217AE</string>
+			<key>buttonlabel</key>
+			<string>Lock</string>
+			<key>itemuid</key>
+			<string>FC185BE1-3FF9-4957-9890-777310BDE80D</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>command</key>
+				<integer>7</integer>
+				<key>confirm</key>
+				<true/>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.systemcommand</string>
+			<key>buttoniconid</key>
+			<string>12D0F1DD-B03B-49D0-A489-686662F3D7B0</string>
+			<key>buttonlabel</key>
+			<string>Restart</string>
+			<key>itemuid</key>
+			<string>DCE91CE6-F295-45CE-BD7E-2F16A7A0640F</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>command</key>
+				<integer>8</integer>
+				<key>confirm</key>
+				<true/>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.systemcommand</string>
+			<key>buttoniconid</key>
+			<string>A2F9A811-6D9F-4EF2-B9C8-F5B1BC071AF2</string>
+			<key>buttonlabel</key>
+			<string>Shut Down</string>
+			<key>itemuid</key>
+			<string>33F6A5D9-EC56-4A13-AA9E-19C484AC5BF8</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+	</array>
+	<key>subtitle</key>
+	<string>Control your Mac</string>
+	<key>title</key>
+	<string>System Commands</string>
+</dict>
+</plist>

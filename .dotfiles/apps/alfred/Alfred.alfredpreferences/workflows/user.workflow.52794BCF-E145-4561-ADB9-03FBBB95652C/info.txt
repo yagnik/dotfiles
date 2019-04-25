@@ -1,0 +1,43 @@
++-o AppleSmartBattery  <class AppleSmartBattery, id 0x100000257, registered, matched, active, busy 0 (0 ms), retain 6>
+    {
+      "TimeRemaining" = 145
+      "AvgTimeToEmpty" = 65535
+      "InstantTimeToEmpty" = 65535
+      "ExternalChargeCapable" = Yes
+      "CellVoltage" = (4020,4017,4011,0)
+      "PermanentFailureStatus" = 0
+      "BatteryInvalidWakeSeconds" = 30
+      "AdapterInfo" = 0
+      "MaxCapacity" = 8040
+      "Voltage" = 12048
+      "Manufacturer" = "SMP"
+      "Location" = 0
+      "CurrentCapacity" = 3207
+      "LegacyBatteryInfo" = {"Amperage"=3729,"Flags"=7,"Capacity"=8040,"Current"=3207,"Voltage"=12048,"Cycle Count"=297}
+      "FirmwareSerialNumber" = 1
+      "BatteryInstalled" = Yes
+      "PackReserve" = 200
+      "CycleCount" = 297
+      "DesignCapacity" = 8440
+      "OperationStatus" = 58371
+      "ManufactureDate" = 17558
+      "AvgTimeToFull" = 145
+      "BatterySerialNumber" = "D864173Y0N6F9CPAH"
+      "BootPathUpdated" = 1438957012
+      "PostDischargeWaitSeconds" = 120
+      "Temperature" = 2997
+      "UserVisiblePathUpdated" = 1438957552
+      "MaxErr" = 1
+      "ManufacturerData" = <000000000702000112060000034a3435033030330341544c031500>
+      "FullyCharged" = No
+      "InstantAmperage" = 3893
+      "DeviceName" = "bq20z451"
+      "IOGeneralInterest" = "IOCommand is not serializable"
+      "Amperage" = 3729
+      "IsCharging" = Yes
+      "DesignCycleCount9C" = 1000
+      "PostChargeWaitSeconds" = 120
+      "ExternalConnected" = Yes
+    }
+    
+
