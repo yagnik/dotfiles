@@ -1,2 +1,2 @@
-. ./functions/*.fish
-. ./theme/*.fish
+. ~/.config/fish/functions/*.fish
+. ~/.config/fish/theme/*.fish
