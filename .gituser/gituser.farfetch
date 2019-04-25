@@ -1,0 +1,5 @@
+[user]
+  name = yagnik
+  email = yagnik.khanna@farfetch.com
+[url "ssh://git@gitlab.fftech.info/"]
+  insteadOf = https://gitlab.fftech.info/
