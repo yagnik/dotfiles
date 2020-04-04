@@ -1,7 +1,5 @@
 {
-	"always_show_minimap_viewport": true,
 	"atomic_save": false,
-	"bold_folder_labels": true,
 	"color_inactive_tabs": true,
 	"color_scheme": "Packages/Theme - Afterglow/Afterglow-twilight.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
@@ -15,23 +13,11 @@
 		".vagrant"
 	],
 	"font_face": "Source Code Pro",
-	"font_options":
-	[
-		"gray_antialias"
-	],
-	"font_size": 26,
+	"font_size": 20,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"overlay_scroll_bars": "enabled",
 	"status_bar_brighter": true,
 	"tab_size": 2,
 	"tabs_small": true,

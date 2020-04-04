@@ -1,5 +1,5 @@
 [alias]
-  s = status
+  s = status --short --branch
   stats = status
   ci = commit
   br = branch
@@ -7,6 +7,7 @@
   d = diff
   lg = log -p
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  l = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(     13 white)%s%C(reset) %C(dim white)- %an%C(reset)'
 [color]
   ui = true
   diff = auto
@@ -24,12 +25,6 @@
 	excludesfile = ~/.gituser/gitignore
 [apply]
   whitespace = strip
-[gpg]
-  program = gpg2
-[commit]
-  gpgsign = true
-[user]
-  signkey = 87E3E375744EF2A1
 [includeIf "gitdir:~/"]
   path = ~/.gituser/gituser.personal
 [includeIf "gitdir:~/code/farfetch/"]
