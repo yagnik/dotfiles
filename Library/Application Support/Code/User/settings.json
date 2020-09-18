@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 20,
+    "editor.cursorBlinking": "solid",
+    "editor.scrollBeyondLastLine": false,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "workbench.statusBar.visible": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.colorCustomizations": {},
+    "extensions.ignoreRecommendations": false,
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.renderLineHighlight": "gutter",
+    "editor.selectionHighlight": false,
+    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveshare.allowInvites": "all",
+    "liveshare.audio.startCallOnShare": true,
+    "liveshare.populateGitCoAuthors": "never"
+}
