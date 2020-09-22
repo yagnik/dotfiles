@@ -7,5 +7,7 @@ Dot files
 
 ```config checkout```
 
+```config config --local status.showUntrackedFIles no```
+
 TODO
 - figure out how to handle /usr/local/bin
