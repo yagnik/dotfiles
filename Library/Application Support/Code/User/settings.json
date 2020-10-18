@@ -10,7 +10,6 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "go.useLanguageServer": true,
-    "workbench.colorTheme": "Material Theme",
     "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "workbench.colorCustomizations": {},
     "extensions.ignoreRecommendations": false,
@@ -32,5 +31,6 @@
     },
     "liveshare.allowInvites": "all",
     "liveshare.audio.startCallOnShare": true,
-    "liveshare.populateGitCoAuthors": "never"
+    "liveshare.populateGitCoAuthors": "never",
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
