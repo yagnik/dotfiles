@@ -32,5 +32,7 @@
     "liveshare.allowInvites": "all",
     "liveshare.audio.startCallOnShare": true,
     "liveshare.populateGitCoAuthors": "never",
-    "workbench.colorTheme": "Material Theme Darker High Contrast"
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
