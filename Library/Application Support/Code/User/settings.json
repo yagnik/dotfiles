@@ -27,12 +27,25 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "liveshare.allowInvites": "all",
     "liveshare.audio.startCallOnShare": true,
     "liveshare.populateGitCoAuthors": "never",
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "explorer.confirmDragAndDrop": false,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "auto-run-command.rules": [
+        {
+            "condition": "hasFile: .devcontainer\/devcontainer.json",
+            "command": "remote-containers.reopenInContainer",
+            "message": "Auto opening in container"
+        }
+    ]
 }
