@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# cleans all main/master merged branches
+
+git branch --merged | egrep -v "(^\*|master|main|dev)" | xargs git branch -d
