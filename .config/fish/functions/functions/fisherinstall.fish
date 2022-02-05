@@ -1,6 +1,8 @@
-function fisher --argument-names cmd --description "A plugin manager for Fish"
+## Source https://github.com/jorgebucaran/fisher
+
+function fisherinstall --argument-names cmd --description "A plugin manager for Fish"
     set --query fisher_path || set --local fisher_path $__fish_config_dir
-    set --local fisher_version 4.3.1
+    set --local fisher_version 4.3.0
     set --local fish_plugins $__fish_config_dir/fish_plugins
 
     switch "$cmd"
@@ -15,8 +17,6 @@ function fisher --argument-names cmd --description "A plugin manager for Fish"
             echo "Options:"
             echo "       -v or --version  Print version"
             echo "       -h or --help     Print this help message"
-            echo "Variables:"
-            echo "       \$fisher_path  Plugin installation path. Default: ~/.config/fish"
         case ls list
             string match --entire --regex -- "$argv[2]" $_fisher_plugins
         case install update remove
