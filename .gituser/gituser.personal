@@ -1,3 +1,13 @@
 [user]
   name = yagnik
   email = yagnikkhanna@gmail.com
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIElBn4xuUe9zzRwgrIEG1CFUagpGkg6vUHUdbf0OtrOL
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
