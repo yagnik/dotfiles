@@ -4,3 +4,7 @@ alias config 'git --git-dir=/Users/yagnik/code/dotfiles/ --work-tree=/Users/yagn
 fish_add_path /opt/homebrew/bin
 fish_add_path ~/.dotfiles/bin/
 fish_add_path $HOME/.cargo/bin
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init2.fish 2>/dev/null || :

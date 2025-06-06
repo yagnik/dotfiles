@@ -27,5 +27,5 @@
   whitespace = strip
 [includeIf "gitdir:~/"]
   path = ~/.gituser/gituser.personal
-[includeIf "gitdir:~/code/farfetch/"]
-  path = ~/.gituser/gituser.farfetch
+[includeIf "hasconfig:remote.*.url:*wealthsimple/**"]
+  path = ~/.gituser/gituser.wealthsimple
